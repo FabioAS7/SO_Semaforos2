@@ -113,7 +113,7 @@ public class Thread_triatlo extends Thread
 		
 		for(int i=0; i<25; i++)
 		{
-			for(int j=(i+1); j<24; j++)
+			for(int j=(i+1); j<25; j++)
 			{
 				if(podio[1][i]<podio[1][j])
 				{
