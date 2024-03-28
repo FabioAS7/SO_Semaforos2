@@ -117,8 +117,11 @@ public class Thread_triatlo extends Thread
 			{
 				if(podio[1][i]<podio[1][j])
 				{
+					aux[0][0] = podio[0][j];
 					aux[1][0] = podio[1][j];
+					podio[0][j] = podio[0][i];
 					podio[1][j] = podio[1][i];
+					podio[0][i] = aux[0][0];
 					podio[1][i] = aux[1][0];
 				}
 			}
